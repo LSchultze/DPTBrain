@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='bg-custom_background flex flex-shrink-0 w-screen h-screen'>
+    <main className='bg-custom_background  '>
       <Header/>
     </main>
   )

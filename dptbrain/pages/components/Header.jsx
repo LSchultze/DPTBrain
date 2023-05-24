@@ -55,8 +55,35 @@ const Header = () => {
 
                 </div>
                 <div className='p-10'>
-                    <ul class="list-disc">
-                        <li className='italic text-base'>General Terms</li>
+                    <ul class="list-disc flex flex-col">
+                        <li className='italic text-lg'>General Terms</li>
+                        <li className='rounded-xs my-3 cursor-pointer max-w-fit bg-blue-100'>
+                            <p className='italic text-lg list-item p-2'>Nerves</p>
+                        </li>
+
+                        <li className='rounded-sm my-3 cursor-pointer max-w-fit bg-blue-200'>
+                            <p className='italic text-lg list-item p-2'>Term</p>
+                        </li>
+
+                        <li className='rounded-sm my-3 cursor-pointer max-w-fit bg-blue-300'>
+                            <p className='italic text-lg list-item p-2'>Term</p>
+                        </li>
+
+                        <li className='rounded-sm my-3 cursor-pointer max-w-fit bg-blue-500'>
+                            <p className='italic text-lg list-item p-2'>Term</p>
+                        </li>
+
+                        <li className='rounded-sm my-3 cursor-pointer max-w-fit bg-blue-600'>
+                            <p className='italic text-lg list-item p-2'>Term</p>
+                        </li>
+
+                        <li className='rounded-sm my-3 cursor-pointer max-w-fit bg-blue-700'>
+                            <p className='italic text-lg list-item p-2'>Term</p>
+                        </li>
+
+                        <li className='rounded-sm my-3 cursor-pointer max-w-fit bg-blue-800'>
+                            <p className='italic text-lg list-item p-2'>Term</p>
+                        </li>
                     </ul>
                 </div>
             
