@@ -6,7 +6,7 @@ import { BiBrain } from 'react-icons/Bi'
 const Header = () => {
     return (
        <div className='text-white p-6' >
-            <div className='text-center mt-20' >
+            <div className='text-center mt-10 min-w-0' >
                 <h2 className='font-bold text-2xl '>Digital PT Brain </h2>
                 
                 <div className='flex justify-center mt-12 mb-12'>
@@ -15,25 +15,45 @@ const Header = () => {
                 <div className='flex items-center justify-center mr-8'>
                     <h2 className='text-center'>Nathaniel Giovanni Yomogida, SPT</h2>
                     <h2 className='text-4xl ml-4'>/</h2>
-                    <h2 className='ml-4 text-center'>Landon Kenneth Schultze, BSC</h2>
+                    <h2 className='ml-4 text-center'>Landon Kenneth Schultze, BSCS</h2>
                 </div>
                 <div className='mt-6'> 
                     <h2 className='font-bold text-2xl '>SDSU </h2>
                     <h2 className='font-bold text-2xl '>CSULB</h2>
                 </div>
                 <div className="flex items-center justify-center">
-                    <div className='bg-malibu-500 w-1/3 p-12 rounded-lg'>    
-                        <Link href = '/' className="bg-gray-800 hover:bg-gray-600 flex justify-center items-center lg:p-4 p-2 rounded-lg cursor-pointer ">
+                    <div className='w-1/3 p-12'>    
+                        <Link href = '/' className="bg-white bg-opacity-10 hover:bg-gray-600 flex justify-center items-center lg:p-4 p-2 rounded-lg cursor-pointer ">
                             <p className="font-bold">Begin</p>
                         </Link>
                     </div>
                 </div>
                 
-                
-
-                
             
             </div>
+
+                <div className='w-9/12'>
+                    <h2 className={style.header}>Preface</h2>
+                    <div>
+                        <p className={style.paragraph}>This is a compilation of notes from the articles, 
+                        experiences, and lectures from my experience in PT school. 
+                        This document is not designed to be completed, but rather to be ever evolving as I progress through 
+                        school and the field of physical therapy.</p>
+                    </div>
+
+                    <div>
+                        <h2 className={style.header}>User Guide</h2>
+                        <p className={style.paragraph}>This is designed to be an interactive document.  
+                        Many of the terms are hyperlinks, which will allow you to quickly reference definitions. 
+                        Adobe PDF is recommended for IPAD viewing. 
+                        In addition, navigation is more efficient when using the bookmark tab. 
+                        The table of contents at the beginning will let you quickly reference sections \& \ subsections, 
+                        but I have included a more specific table of contents at the beginning of each section 
+                        which contains more bookmarks.</p>
+
+                    </div>
+                    
+                </div>
             
        </div>
     )
