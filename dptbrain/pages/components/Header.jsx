@@ -32,7 +32,7 @@ const Header = () => {
             
             </div>
 
-                <div className='grid grid-cols- gap-4'>
+                <div className='grid grid-cols- gap-4 '>
                     <h2 className={style.header}>Preface</h2>
                     <div>
                         <p className={style.paragraph}>This is a compilation of notes from the articles, 
